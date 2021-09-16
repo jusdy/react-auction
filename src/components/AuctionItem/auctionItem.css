@@ -1,0 +1,57 @@
+.auction-item {
+  border: 1px solid #c9c7c7;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.auction-item .auction-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.auction-item .auction-detail {
+  padding: 10px 0 10px 20px;
+}
+
+.auction-item .auction-detail .price {
+  margin-top: 1rem;
+}
+
+.auction-item .auction-detail .social-wrapper {
+  margin-top: 15px;
+}
+
+.auction-item .auction-end-layout {
+  margin-left: 10px;
+}
+
+.auction-item .auction-end-layout .desc {
+  width: 70% !important;
+  text-align: start;
+}
+
+.auction-item .auction-winner-avatar {
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .auction-item {
+    border: 1px solid #c9c7c7;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .auction-item .auction-detail {
+    padding: 10px 0 10px 20px;
+  }
+  .auction-item .auction-detail .price {
+    margin-top: 5px;
+  }
+  .auction-item .auction-detail .social-wrapper {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=auctionItem.css.map */

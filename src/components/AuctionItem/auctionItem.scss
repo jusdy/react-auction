@@ -1,0 +1,50 @@
+.auction-item {
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 12px;
+    padding: 20px;
+    .auction-image {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .auction-detail {
+        padding: 10px 0 10px 20px ;
+        .price {
+            margin-top: 1rem;
+        }
+        .social-wrapper {
+            margin-top: 15px;
+        }
+    }
+    .auction-end-layout {
+        margin-left: 10px;
+        .desc {
+            width: 70% !important;
+            text-align: start;
+        }
+    }
+    .auction-winner-avatar {
+        width: 80px;
+        object-fit: cover;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .auction-item {
+        border: 1px solid rgb(201, 199, 199);
+        border-radius: 4px;
+        padding: 10px;
+        .auction-detail {
+            padding: 10px 0 10px 20px ;
+            .price {
+                margin-top: 5px;
+            }
+            .social-wrapper {
+                margin-top: 10px;
+            }
+        }
+    }
+}

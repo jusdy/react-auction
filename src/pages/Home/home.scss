@@ -1,0 +1,40 @@
+.wrapper {
+  text-align: left;
+  margin-top: 50px;
+  .auctions-layout {
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    .title {
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    text-align: left;
+    margin-top: 10px;
+    .auctions-layout {
+      padding: 5px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      .title {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400;
+      }
+    }
+  }
+  
+}

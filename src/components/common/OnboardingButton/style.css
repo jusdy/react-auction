@@ -1,0 +1,48 @@
+.custom-btn {
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 5px;
+  height: 6vh;
+  max-height: 50px;
+  transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  width: 100%;
+  font-family: 'Segoe UI Regular';
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--text-color-light);
+  color: var(--text-color-dark);
+}
+.btn-fill {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+.btn-fill:hover {
+  border-color: var(--text-color-light);
+  color: var(--text-color-light);
+}
+
+@media(max-width: 540px) {
+  .custom-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px;
+    width: 100%;
+    max-height: 40px;
+  }
+}
